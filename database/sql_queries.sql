@@ -1,9 +1,9 @@
 -- create database
-DROP DATABASE IF EXISTS hotel_reservation_system;
+DROP DATABASE IF EXISTS online_hotel_booking;
 
-CREATE DATABASE hotel_reservation_system;
+CREATE DATABASE online_hotel_booking;
 
-USE hotel_reservation_system;
+USE online_hotel_booking;
 
 CREATE TABLE room (
 	id INT PRIMARY KEY AUTO_INCREMENT,
